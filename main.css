@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    height: 100%;
+    font-family: roboto, arial;
+    margin-top: 0px;
+}
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 49px;
+    margin-top: 120px;
+    margin-left: 98px;
+    margin-right: 5px;
+    z-index: 50;
+
+}
+
+@media (max-width: 700px){
+    .main  {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 1320px){
+    .main  {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 964.8px){
+    .main  {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+
+
+@media (max-width: 585.8px){
+    .main  {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.video-bottom{
+    display: flex;
+    -ms-flex-align: space-between;
+}
+
+.thumbnailimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: border-radius 0.15s ease;
+}
+
+.thumbnailimg:hover{
+    border-radius: 0;
+}
+
+.thumbnail{
+    width: 326.75px;
+    height: 193.038px;
+    
+    position: relative;
+}
+
+.duration{
+    position: absolute;
+    font-family: roboto, Arial;
+    font-weight: 500;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 8px;
+    bottom: 5px;
+    right: 6px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.logo-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 9px;
+    margin-right: 8px;
+}
+
+.video-title{
+    margin-top: 9px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-family: roboto, Arial;
+    margin-right: 5px;
+    line-height: 22px;
+    padding-right: 20px;
+    
+}
+
+.channel-name,
+.views{
+    font-family: roboto, Arial;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+
+.video-bottom{
+    position: relative;
+}
+
+.more-button{
+    position: absolute;
+    left: 305px;
+    top: 9px;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    transition: 0.2s;
+    opacity: 0.875;
+}
+
+.more-button:hover{
+    background-color: rgb(72, 72, 72);
+    border: none;
+    opacity: 0.875;
+}

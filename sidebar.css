@@ -1,0 +1,123 @@
+.sidebar{
+    font-family: roboto, Arial;
+    font-weight: 400;
+    width: 80px;
+    height: 4000px;
+    position: fixed;
+    background-color: rgb(19, 19, 19);
+    margin-top: -13px;
+    display: flex;
+    flex-direction: column;
+    z-index: 60;
+    margin-left: 0px;
+    left: 0;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+
+@media(max-width: 700px){
+    .sidebar{
+        display: none;
+    }
+}
+
+.home{
+    position: relative;
+}
+
+.home-icon{
+    position: absolute;
+    left: -17px;
+    top: -30px;
+    width: 25px;
+}
+
+.home-text{
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    font-size: 12px;
+}
+
+
+.create-video{
+    position: relative;
+}
+
+.CV-icon{
+    position: absolute;
+    left: -15px;
+    top: 40px;
+    width: 25px;
+
+
+
+}
+
+.CV-text{
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    font-size: 12px;
+}
+
+.playlist{
+    position: relative;
+}
+
+.playlist-icon{
+    position: absolute;
+    left: -16px;
+    top: 100px;
+    width: 25px;
+
+}
+
+.playlists-text{
+    position: absolute;
+    top: 112px;
+    left: -25px;
+    font-size: 12px;
+}
+
+
+
+
+.like{
+    position: relative;
+}
+
+.like-icon{
+    position: absolute;
+    left: -16px;
+    top:170px;
+    width: 25px;
+}
+
+.like-text{
+    position: absolute;
+    top: 184px;
+    left: -20px;
+    font-size: 12px;
+}
+
+
+.You{
+    position: relative;
+}
+
+.you-icon{
+    position: absolute;
+    left: -35px;
+    top: 225px;
+    width: 60px;
+}
+
+.You-text{
+    position: absolute;
+    top: 257px;
+    left: -16px;
+    font-size: 12px;
+}

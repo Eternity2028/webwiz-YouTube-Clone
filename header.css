@@ -1,0 +1,160 @@
+header{
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(19,19,19);
+    z-index: 100;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    
+}
+header div{
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-head{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.menu-icon{
+    width: 40px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 7px;
+    margin-top: 15px;
+}
+
+.YTicon{
+    cursor: pointer;
+    transform: scale(0.8);
+    margin-left: -20px;
+}
+
+.center-head{
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    padding-top: 3px;
+    max-width: 800px;white-space: nowrap;
+    
+    
+}
+
+@media(max-width: 726.2px){
+    .center-head{
+        display: none;
+    }
+}
+
+.search-button i{
+    margin-right: 20px;
+    scale: 1000px;  
+    transform: scale(1.5);  
+    margin-top: 2px;
+}
+
+
+.search {
+    border-radius: 50px 0px 0px 50px;
+    border-width: 0.1px;
+    box-shadow: none;
+    height: 37px;
+    max-width: 450px;
+    width: 0px;
+    padding-left: 30px;
+    flex: 1;
+    margin-top: 0px;
+    border: solid;    
+    border-color: rgb(52, 52, 52);
+    background-color: rgb(19,19,19); 
+
+}
+@media(max-width: 723.2px ){
+    .search{
+       max-width: 0;
+    }
+
+}
+
+.search-button{
+    height: 43px;
+    width: 65px;
+    border-radius: 0px 50px 50px 0px;
+    border: 1px;
+    text-align: right;
+    align-self: right;
+    justify-content: right;
+    min-width: 0px;
+    background-color: rgb(52, 52, 52);
+    cursor: pointer;
+
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.voice{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px;
+    margin-left: 20px;
+    background-color: rgb(52, 52, 52);
+}
+
+.voice-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0.8px;
+}
+
+
+.right-head {
+    width: 250px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    min-width: 200px;
+    
+}
+
+
+
+.profile-pic{
+    width: 60px;
+    height: 50px;
+    margin-top: 6px;
+    position: absolute;
+    right: 15px;
+    
+}
+
+.bell-icon{
+    position: absolute;
+    right: 95px;
+    top: 14px;
+}
+
+.create-icon{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    right: 145px;
+    top: 11px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 40px;
+   
+}

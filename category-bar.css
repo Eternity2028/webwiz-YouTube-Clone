@@ -1,0 +1,47 @@
+.category-container {
+    position: fixed;
+    top: 56px; /* Adjust based on your header height */
+    left: 81px;
+    right: 0;
+    background-color: rgb(19,19,19); /* Dark theme background */
+    padding: 12px 24px;
+     /* Dark theme border */
+    
+    z-index: 100;
+  }
+  
+  .category-bar {
+    padding-left: 0px;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .category-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .category-item {
+    background-color: #272727; /* Dark theme button background */
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 14px;
+    color: #f1f1f1; /* Dark theme text color */
+    transition: background-color 0.15s ease;
+  }
+  
+  .category-item:hover {
+    background-color: #3f3f3f; /* Dark theme hover state */
+    
+  }
+  
+  .category-item.active {
+    background-color: #f1f1f1; /* Dark theme active button */
+    color: #0f0f0f; /* Dark theme active text */
+  }
