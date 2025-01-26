@@ -78,6 +78,7 @@ header div{
     border-color: rgb(52, 52, 52);
     background-color: rgb(19,19,19); 
     color: white;
+    outline: none;
 
 }
 @media(max-width: 723.2px ){
